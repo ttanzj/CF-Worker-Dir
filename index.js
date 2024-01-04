@@ -202,7 +202,7 @@ function renderHTML(index,seller) {
           url = url.replace(`+/\$s/+`,$('#searchinput').val());
           window.open(url);
       });
-      /* 鼠标聚焦时，回车事件 */
+      /* 鼠标聚焦时，回车事件  */
       $("#searchinput").bind("keypress", function(){
           if (event.keyCode == 13){
           // 触发需要调用的方法
